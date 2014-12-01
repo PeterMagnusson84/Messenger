@@ -1,45 +1,52 @@
     h1
     {
-    font-family: "arial";
-    margin-left:130px;
+        font-family: "arial";
+        margin-left:130px;
     }
     
     body
     {
-    background-color:yellow;
+        background-color:white;
     }
         
     #content
     {
-    padding-left:150px;
-    border: 1px solid black;
-    background-color:yellow;
-    
-    
+        padding-left:150px;
+        border: 1px solid black;
+        background-color:#297ACC;
     }
         
-      #container
+    #container
     {
-   
-    margin: auto;
-    width: 500px;
-    
-    background-color: yellow;     
+        margin: auto;
+        width: 500px;
+        margin-bottom: 20px;     
     }
     textarea
     {
         margin-top:30px;
-        margin-left:-55px;
-       
-       height:100px;
-         width:300px; 
-        } 
-        .button
-        {
-             float: right;
-            
-        }
-        .messages
-        {
-            background-color:blue;
-            }  
+        margin-left:-55px;   
+        height:100px;
+        width:300px; 
+    } 
+    #button
+    {
+        margin-top: 10px;
+        float: right;        
+    }
+    .messages
+    {
+        background-color:blue;
+    } 
+
+    .deleteIcon
+    {
+        float: right;
+        padding-right: 10px;
+    }
+
+    .clockIcon
+    {
+        float: right;
+        padding-right: 10px;
+    }

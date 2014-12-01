@@ -86,7 +86,7 @@ var MessageBoard = {
         // Ta-bort Knapp
         var div = document.getElementById("messages");
         var imgClose = document.createElement("p");       
-	    imgClose.innerHTML = "<img class='icon' src='icontabort.jpg' width='18px' height='18px'/>";
+	    imgClose.innerHTML = "<img class='deleteIcon' src='icontabort.jpg' width='18px' height='18px'/><br>";
         imgClose.onclick = function() {
             MessageBoard.removeMessage(messageID);
         
@@ -96,7 +96,7 @@ var MessageBoard = {
         //Klockan
         var div = document.getElementById("messages");
         var imgClock = document.createElement("p");        
-        imgClock.innerHTML = "<img class='icon' src='clock.png' width='18px' height='18px'/>";
+        imgClock.innerHTML = "<img class='clockIcon' src='clock.png' width='18px' height='18px'/><br>";
         imgClock.onclick = function () {
             alert("Detta meddelande skapades " + MessageBoard.messages[messageID].getDateText());
         
